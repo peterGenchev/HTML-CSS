@@ -1,0 +1,9 @@
+body span:nth-child(1) {
+    background-color: red;
+    color: white;
+  }
+
+ span:last-child {
+    background-color:red;
+    color: white;
+  }
