@@ -1,0 +1,82 @@
+/* responsive.css */
+
+/* Add your global styles here */
+
+@media screen and (max-width: 600px) {
+
+
+/* Inside the media query for screens <= 600px (mobile) */
+
+/* Reset some global styles */
+body {
+    font-size: 16px; /* Adjust font size for better readability on small screens */
+  }
+  
+  /* Adjust the header and navigation */
+  .home-navbar-container {
+    position:static; /* Remove the sticky positioning */
+  }
+  
+  .home-navbar {
+    flex-direction: column; /* Stack elements vertically */
+    padding: 10px; /* Adjust padding for better spacing */
+  }
+  
+  .home-links-container {
+    flex-direction: column; /* Stack navigation links vertically */
+    margin-top: 20px; /* Add space between links */
+  }
+  
+  .home-link,
+  .home-link1,
+  .home-link2,
+  .home-link3 {
+    margin: 10px 0; /* Add space between links */
+  }
+  
+  .home-cta-container {
+    margin-top: 20px; /* Add space between links and the button */
+  }
+  
+  /* Update the hero section for mobile */
+  .home-hero {
+    flex-direction: column; /* Stack elements vertically */
+    margin-top: 20px; /* Add space between sections */
+  }
+  
+  .home-hero-text-container {
+    width: 100%; /* Full width for text container */
+    margin-left: 0; /* Remove margin on mobile */
+    text-align: center; /* Center text */
+  }
+  
+  .home-heading {
+    font-size: 32px; /* Reduce the font size for the heading */
+    margin-bottom: 12px; /* Adjust margin for spacing */
+  }
+  
+  .home-text02 {
+    margin-bottom: 20px; /* Adjust margin for spacing */
+  }
+  
+  .home-image1 {
+    width: 100%; /* Make the image full-width on mobile */
+  }
+  
+  /* Adjust the features section for mobile */
+  .home-features {
+    height: auto; /* Remove fixed height for better responsiveness */
+  }
+  
+  .home-heading-container {
+    width: 100%; /* Full width for text container */
+  }
+  
+  .home-text03 {
+    font-size: 32px; /* Reduce the font size for the heading */
+    margin-bottom: 12px; /* Adjust margin for spacing */
+  }
+  
+  /* Update other elements as needed for mobile */
+}
+  
