@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,300;1,400&family=Poppins:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    margin: 60px 150px 110px 180px;
+}
+
+.texting {
+    margin-right: 30px;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: xx-large;
+}
+
+p {
+    font-size: large;
+}
+
+h2 {
+    font-family: Montserrat;
+    margin-top: 12px;
+}
+
+.logos p{
+    margin-top: 1px;
+}
+
+p {
+    display: block;
+    font-family: Poppins;
+    margin-top: 15px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+
+.image, .texting {
+    flex: 1;
+}
+
+.image img{
+    width: 98%;
+    height: 98%;
+    object-fit: cover;
+}
+
+.logos {
+    display: flex;
+    margin-top: 30px;
+}
+
+.logos img {
+    width: 10%;
+    height: 10%;
+}
+
+
+
